@@ -53,12 +53,13 @@ const skillsSection = {
   subTitle: "CRAZY ROBOT DEVELOPER WHO WANTS TO EXPLORE",
   skills: [
     emoji(
-      "⚡ Assisitive Device"
+      "⚡ Nvidia Ambassadorship Workshop"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Ros Developer"
+    ),
+    emoji("⚡ Mentorship"),
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -272,6 +273,28 @@ const bigProjects = {
       //     url: "http://nextu.se/"
       //   }
       // ]
+    },
+    {
+      image: require("./assets/images/nvidia.png"),
+      projectName: "Autonomous wheelchair",
+      projectDesc: "project I've been deeply involved in — an autonomous wheelchair designed to empower individuals with mobility impairments, providing them with independence in their daily lives. This initiative was made possible through a project grant sanctioned by Harvard Medical School and Boston Children's Hospital. Using cutting-edge technology and the Robot Operating System (ROS), I developed this wheelchair to operate autonomously, allowing individuals to navigate and control their movements without the need for constant assistance from family members or caregivers.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
+    },
+    {
+      image: require("./assets/images/WhatsApp Image 2024-01-12 at 2.52.38 PM.jpeg"),
+      projectName: "Hospital Medician Delivery Robot using ROS",
+      projectDesc: "Motivated and innovative robotics engineer with a passion for creating cutting-edge solutions in healthcare. Led a funded project at Harvard University to develop a Hospital Medician Delivery Robot using the Robot Operating System (ROS). Proﬁcient in robotics and project management. Skilled in ROS, computer vision, and autonomous navigation. Committed to leveraging technology to improve patient care and streamline healthcare processes.",
+      footerLink: [
+        {
+          name: "Tutorial",
+          url: "https://www.youtube.com/watch?v=uBmeGMhxcg0&feature=youtu.be"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -293,51 +316,114 @@ const achievementSection = {
       image: require("./assets/images/nvidia.png"),
       imageAlt: "Nvidia Logo",
       footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Blog",
+          url: "https://blogs.nvidia.com/blog/2023/10/03/kabilan-kb-autonomous-wheelchair/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
+
     {
-      title: "NVIDIA DLI Certificate – Develop, Customize, and Publish in Omniverse With Extensions",
+      title: "IITM Research Park Student Design Challenge",
       subtitle:
-        "Photorealistic robotic simulation in omniverse",
-      image: require("./assets/images/nvidia.png"),
+        "Assitive technology conference runner up",
+      image: require("./assets/images/Empower-Logo-Yellow-2023-300x45.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.nvidia.com/certificates/425e2f62fdc4418eb2ce6cd9f1c1966d/"
+          url: "https://drive.google.com/file/d/1P6xpThU-M2zK-gSWwhcK8hY3IGCE8Hi5/view?usp=drivesdk"
         },
         {
-          name: "Project Blog",
-          url: "https://medium.com/@kabilankb2003/jetbot-isaac-ros-omniverse-simulation-34a1ec915ed6"
+          name: "Link",
+          url: "https://empower23.respark.iitm.ac.in/student-design-finalists/"
         }
       ]
     },
 
     {
-      title: "Building Video AI Applications at the Edge on Jetson Nano",
-      subtitle: "Build a visual perception robot using 3d depth cam",
-      image: require("./assets/images/nvidia.png"),
-      imageAlt: "PWA Logo",
+      title: "Build2gether",
+      subtitle:
+        "Inclusive Innovation Challenge runner up",
+      image: require("./assets/images/Untitled.png"),
+      imageAlt: "hackster Logo",
       footerLink: [
-        {name: "Certification", url: "https://courses.nvidia.com/certificates/7ec1f55809564b809fecf33858fc38af/"},
         {
-          name: "Project Blog",
-          url: "https://medium.com/@kabilankb2003/building-an-intelligent-robot-with-nvidia-jetson-nano-intel-depth-camera-d435i-and-arduino-9f8ba9ea40c8"
-        }
+          name: "Link",
+          url: "https://www.hackster.io/kabilankb2003/self-driving-wheelchair-for-people-with-mobility-impairment-7a87af"
+        },
+        // {
+        //   name: "Project Blog",
+        //   url: "https://empower23.respark.iitm.ac.in/student-design-finalists/"
+        // }
       ]
-    }
+    },
+
+
+    {
+      title: "INAE youth conclave 2023",
+      subtitle: "Indian National academy of engineering Runner up",
+      image: require("./assets/images/Untitled.jpg"),
+      imageAlt: "INAE Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1ODftAD5QES7cKIb_3r0n2GnttR63gh20/view"},
+        // {
+        //   name: "Project Blog",
+        //   url: "https://medium.com/@kabilankb2003/building-an-intelligent-robot-with-nvidia-jetson-nano-intel-depth-camera-d435i-and-arduino-9f8ba9ea40c8"
+        // }
+      ]
+    },
+
+    {
+      title: "Nvidia Instructor",
+      subtitle:
+        "Certified Instructor for Nvidia Jetson Nano",
+      image: require("./assets/images/nvidia.png"),
+      imageAlt: "Nvidia Logo",
+      footerLink: [
+        // {
+        //   name: "Blog",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1P5InFWBrVbsYHpRnMEX46Xn2Uxsu5EmE/view"
+        },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+        {
+      title: "Nvidia Ambassadorship",
+      subtitle:
+        "Certified Ambassadorship ",
+      image: require("./assets/images/nvidia.png"),
+      imageAlt: "Nvidia Logo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1OzAF5tZJ56uYdHYINfEa3O3BXQMA8bbK/view"
+        },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -363,7 +449,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -383,7 +469,7 @@ const talkSection = {
     },
     
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
