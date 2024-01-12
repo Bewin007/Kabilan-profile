@@ -52,14 +52,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY ROBOT DEVELOPER WHO WANTS TO EXPLORE",
   skills: [
-    emoji(
-      "⚡ Nvidia Ambassadorship Workshop"
-    ),
-    emoji(
-      "⚡ Ros Developer"
-    ),
-    emoji("⚡ Mentorship"),
-
+    emoji("⚡ Nvidia Ambassadorship Workshop"),
+    emoji("⚡ Ros Developer"),
+    emoji("⚡ Mentorship")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -103,46 +98,45 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fas fa-database"
     // },
     {
-      skillName: "aws",
+      skillName: "aws"
       // fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "rashberry pi",
+      skillName: "rashberry pi"
       // fontAwesomeClassname: "fa-brands fa-rashberry-pi"
     },
     {
-      skillName: "python",
+      skillName: "python"
       // fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "docker"
       // fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Ros",
+      skillName: "Ros"
       // fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Isaac Ros",
+      skillName: "Isaac Ros"
       // fontAwesomeClassname: "fa-brands fa-rashberry-pi"
     },
     {
-      skillName: "MoveIT",
+      skillName: "MoveIT"
       // fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "3D Printing",
+      skillName: "3D Printing"
       // fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Jetson Nano",
+      skillName: "Jetson Nano"
       // fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Arduino",
+      skillName: "Arduino"
       // fontAwesomeClassname: "fa-brands fa-rashberry-pi"
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -158,18 +152,14 @@ const educationInfo = {
       subHeader: "Batchlor of Robotics Engineering",
       duration: "July 2021 - May 2024",
       desc: "Harward Funded project",
-      descBullets: [
-        "Autonomous wheel chair system",
-        "Hospital Delivery bot",
-      ]
-      
+      descBullets: ["Autonomous wheel chair system", "Hospital Delivery bot"]
     },
     {
       schoolName: "Rane Polytechnic",
       logo: require("./assets/images/rane.png"),
       subHeader: "Diploma in Mechanical Engineering",
       duration: "Jun 2018 - Jun 2021",
-      desc: "Solid WorkS design in robots",
+      desc: "Solid WorkS design in robots"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -206,7 +196,7 @@ const workExperiences = {
       company: "CTC karunya university",
       companylogo: require("./assets/images/Karunya.jpeg"),
       date: "Feb 2023 – Feb 2023",
-      desc: "It was a wonderful experience to teach and share my Knowledge with enthusiastic individuals in robotics for three days ros workshop.",
+      desc: "It was a wonderful experience to teach and share my Knowledge with enthusiastic individuals in robotics for three days ros workshop."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -232,8 +222,7 @@ const workExperiences = {
       companylogo: require("./assets/images/itc.jpeg"),
       date: "May 2022 - Jun 2022",
       desc: "During this period of internship undertaken the project of 'universal robot problem solving’ in Biscuit category to reduce delay time in pick and place of CFC in pallet transport."
-    },
-    
+    }
   ]
 };
 
@@ -254,7 +243,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nvidia.png"),
       projectName: "NVIDIA JETSON NANO DEPTH CAMERA PROJECT",
-      projectDesc: "Led a successful project involving NVIDIA Jetson Nano and Depth Camera integration to develop an advanced robotic system with enhanced perception capabilities.",
+      projectDesc:
+        "Led a successful project involving NVIDIA Jetson Nano and Depth Camera integration to develop an advanced robotic system with enhanced perception capabilities."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -266,7 +256,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nvidia.png"),
       projectName: "NVIDIA JETBOT OMNIVERSE ISAAC ROS SIMULATION",
-      projectDesc: "Led a groundbreaking project that integrated NVIDIA JetBot with Omniverse ISAAC, ROS teleoperation, and YOLO object detection. Proficient in developing and implementing complex robotic systems for various applications. Committed to leveraging cutting-edge technologies to advance the field of robotics and autonomous systems.",
+      projectDesc:
+        "Led a groundbreaking project that integrated NVIDIA JetBot with Omniverse ISAAC, ROS teleoperation, and YOLO object detection. Proficient in developing and implementing complex robotic systems for various applications. Committed to leveraging cutting-edge technologies to advance the field of robotics and autonomous systems."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -277,7 +268,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nvidia.png"),
       projectName: "Autonomous wheelchair",
-      projectDesc: "project I've been deeply involved in — an autonomous wheelchair designed to empower individuals with mobility impairments, providing them with independence in their daily lives. This initiative was made possible through a project grant sanctioned by Harvard Medical School and Boston Children's Hospital. Using cutting-edge technology and the Robot Operating System (ROS), I developed this wheelchair to operate autonomously, allowing individuals to navigate and control their movements without the need for constant assistance from family members or caregivers.",
+      projectDesc:
+        "project I've been deeply involved in — an autonomous wheelchair designed to empower individuals with mobility impairments, providing them with independence in their daily lives. This initiative was made possible through a project grant sanctioned by Harvard Medical School and Boston Children's Hospital. Using cutting-edge technology and the Robot Operating System (ROS), I developed this wheelchair to operate autonomously, allowing individuals to navigate and control their movements without the need for constant assistance from family members or caregivers."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -288,7 +280,8 @@ const bigProjects = {
     {
       image: require("./assets/images/WhatsApp Image 2024-01-12 at 2.52.38 PM.jpeg"),
       projectName: "Hospital Medician Delivery Robot using ROS",
-      projectDesc: "Motivated and innovative robotics engineer with a passion for creating cutting-edge solutions in healthcare. Led a funded project at Harvard University to develop a Hospital Medician Delivery Robot using the Robot Operating System (ROS). Proﬁcient in robotics and project management. Skilled in ROS, computer vision, and autonomous navigation. Committed to leveraging technology to improve patient care and streamline healthcare processes.",
+      projectDesc:
+        "Motivated and innovative robotics engineer with a passion for creating cutting-edge solutions in healthcare. Led a funded project at Harvard University to develop a Hospital Medician Delivery Robot using the Robot Operating System (ROS). Proﬁcient in robotics and project management. Skilled in ROS, computer vision, and autonomous navigation. Committed to leveraging technology to improve patient care and streamline healthcare processes.",
       footerLink: [
         {
           name: "Tutorial",
@@ -311,8 +304,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Meet the maker",
-      subtitle:
-        "Appreciated by nvidia meet the maker blog about me",
+      subtitle: "Appreciated by nvidia meet the maker blog about me",
       image: require("./assets/images/nvidia.png"),
       imageAlt: "Nvidia Logo",
       footerLink: [
@@ -323,7 +315,7 @@ const achievementSection = {
         {
           name: "Blog",
           url: "https://blogs.nvidia.com/blog/2023/10/03/kabilan-kb-autonomous-wheelchair/"
-        },
+        }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
@@ -333,8 +325,7 @@ const achievementSection = {
 
     {
       title: "IITM Research Park Student Design Challenge",
-      subtitle:
-        "Assitive technology conference runner up",
+      subtitle: "Assitive technology conference runner up",
       image: require("./assets/images/Empower-Logo-Yellow-2023-300x45.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -351,15 +342,14 @@ const achievementSection = {
 
     {
       title: "Build2gether",
-      subtitle:
-        "Inclusive Innovation Challenge runner up",
+      subtitle: "Inclusive Innovation Challenge runner up",
       image: require("./assets/images/Untitled.png"),
       imageAlt: "hackster Logo",
       footerLink: [
         {
           name: "Link",
           url: "https://www.hackster.io/kabilankb2003/self-driving-wheelchair-for-people-with-mobility-impairment-7a87af"
-        },
+        }
         // {
         //   name: "Project Blog",
         //   url: "https://empower23.respark.iitm.ac.in/student-design-finalists/"
@@ -367,14 +357,16 @@ const achievementSection = {
       ]
     },
 
-
     {
       title: "INAE youth conclave 2023",
       subtitle: "Indian National academy of engineering Runner up",
       image: require("./assets/images/Untitled.jpg"),
       imageAlt: "INAE Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1ODftAD5QES7cKIb_3r0n2GnttR63gh20/view"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ODftAD5QES7cKIb_3r0n2GnttR63gh20/view"
+        }
         // {
         //   name: "Project Blog",
         //   url: "https://medium.com/@kabilankb2003/building-an-intelligent-robot-with-nvidia-jetson-nano-intel-depth-camera-d435i-and-arduino-9f8ba9ea40c8"
@@ -384,8 +376,7 @@ const achievementSection = {
 
     {
       title: "Nvidia Instructor",
-      subtitle:
-        "Certified Instructor for Nvidia Jetson Nano",
+      subtitle: "Certified Instructor for Nvidia Jetson Nano",
       image: require("./assets/images/nvidia.png"),
       imageAlt: "Nvidia Logo",
       footerLink: [
@@ -396,17 +387,16 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1P5InFWBrVbsYHpRnMEX46Xn2Uxsu5EmE/view"
-        },
+        }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         // }
       ]
     },
-        {
+    {
       title: "Nvidia Ambassadorship",
-      subtitle:
-        "Certified Ambassadorship ",
+      subtitle: "Certified Ambassadorship ",
       image: require("./assets/images/nvidia.png"),
       imageAlt: "Nvidia Logo",
       footerLink: [
@@ -417,13 +407,13 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1OzAF5tZJ56uYdHYINfEa3O3BXQMA8bbK/view"
-        },
+        }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         // }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -466,8 +456,7 @@ const talkSection = {
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
-    },
-    
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -483,7 +472,7 @@ const podcastSection = {
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  
+
   display: true // Set false to hide this section, defaults to true
 };
 
